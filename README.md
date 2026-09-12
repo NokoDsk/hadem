@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="hadem-logo.png" alt="HADEM Logo" width="200">
-</p>
+![HADEM Logo](https://raw.githubusercontent.com/NokoDsk/hadem/refs/heads/main/1789223024879.png)
 
 # Home Assistant Device & Entity Migration ("HADEM")
 
