@@ -9,15 +9,15 @@
 
 Do you remember the first time you replaced your phone, installed the Companion App and added it to Home Assistant. It wasn't until that moment when you realised what you had just done...
 
-**New device. New entities. New sensors. Broken automations. And... spouse approval ratings somewhere below 1-star, and threats to rip the whole thing out.**
+**New device. New entities. New sensors. Broken automations. Broken dashboards. And... spouse approval somewhere below 1-star, with threats to shut it all down and rip the whole thing out.**
 
 And it was somewhere around that point that you probably thought: **_"Well... there goes my weekend."_**
 
-**Replacing a device shouldn't mean rebuilding Home Assistant. Now you can without rebuilding the configuration that depends on it.**
+**Replacing a wall-mounted tablet, or any number of your family members phones shouldn't mean rebuilding Home Assistant. Now you can without rebuilding the configuration, the automations, or the dashboards that depends on it.**
 
 So I started developing **HADEM**. It's designed to make replacing devices in Home Assistant painless.
 
-When a device is replaced, Home Assistant often creates a new device and a new set of entities. Your existing automations, scripts, dashboards, scenes, and other configuration may still depend on the entities from the old device.
+When a device is replaced, Home Assistant often creates a new device and a new set of entities. Your existing automations, scripts, dashboards, scenes, and other configurations may still depend on the entities from the old device.
 
 HADEM analyses the old and replacement devices **(notice I didn't say "uses A.I." 🤣)**, matches their entities, and helps sync the replacement with your existing Home Assistant setup while preserving the Entity IDs your configuration already relies on.
 
@@ -27,7 +27,7 @@ It also identifies missing entities, checks which entities are actually being us
 
 While this concept is applicable to any device that may have reached end of life and needs to be replaced or is being upgraded, the **Home Assistant Companion App** is HADEM's primary use case.
 
-Replacing a phone or tablet can create an entirely new device and, along with it, a large number of new sensors and entities. Differences in hardware, permissions, and available sensors can make it difficult to reproduce the functionality of the old device and restore the configuration that depends on it.
+Replacing a phone or tablet can create an entirely new device and, along with it, a large number of new entities or disabling necessary device sensors. Differences in hardware, permissions, and available sensors can make it difficult to reproduce the functionality of the old device and restore the configuration that depends on it.
 
 **New device. Same Home Assistant. No rebuilding from scratch. Enjoy your weekend.**
 
